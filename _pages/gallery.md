@@ -1,6 +1,6 @@
 ---
 permalink: /gallery/
-title: "Gallery"
+title: "🖼 Gallery"
 excerpt: "Images"
 author_profile: false
 redirect_from: 
