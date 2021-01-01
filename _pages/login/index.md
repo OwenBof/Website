@@ -20,7 +20,6 @@ Enter your password to continue.
 
 body {
 
-	background-image: url('https://cdn.joecollyer.com/image/fejka.png');
 	background-attachment: fixed;
 	color: #333;
 }
