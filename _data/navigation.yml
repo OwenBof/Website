@@ -10,4 +10,4 @@ main:
     url: /gallery/
     
   - title: "Login"
-    url: /Login/
+    url: /login/
