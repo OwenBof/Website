@@ -1,5 +1,5 @@
 ---
-permalink: /login
+permalink: /login/
 title: "Login to owenboffey.com! 🔒"
 excerpt: "Login to owenboffey.com"
 author_profile: false
