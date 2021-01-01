@@ -5,7 +5,6 @@ excerpt: "Login to owenboffey.com"
 author_profile: false
 redirect_from: 
   - /private
-  - /login.html
 ---
 
 Enter your password to continue.
