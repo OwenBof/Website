@@ -6,6 +6,8 @@ author_profile: false
 redirect_from: 
   - /private
   - /login.html
+  - /Login/
+  - /login/
 ---
 
 Enter your password to continue.
