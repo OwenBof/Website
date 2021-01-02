@@ -247,12 +247,12 @@ defaults:
       share: true
   # login
   - scope:
-      path: ""
+      path: "/login/"
       type: page
     values:
-      layout: talk
+      layout: single
       author_profile: false
-      share: true
+      share: false
 
 # Sass/SCSS
 sass:
