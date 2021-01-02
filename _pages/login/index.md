@@ -6,11 +6,11 @@ author_profile: false
 ---
 
 Enter your password to continue.
-v5
+v6
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-
+	
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 </head>
@@ -19,6 +19,7 @@ v5
 
 body {
 
+	background-image: url('https://cdn.joecollyer.com/image/4kbackgrounds/night-harbour.jpg');
 	background-attachment: fixed;
 	color: #333;
 }
@@ -69,23 +70,17 @@ div.vertical {
    text-align: center;
 }
 
-.lbutton:hover {
-  background-color: #e5e5e5;
-  color: black;
-
 </style>
 
 <body>
 
-	<div id="loginbox" class="" >
+	<div id="loginbox" class="lightbox" >
 		<div class="horizontal">
 			<div class="vertical">
-				<div class="">
-					<p></p>
-					<input style="text-align: left;" id="password" type="password" placeholder="Password" /> <br />
-          				<p></p>
-					<button id="loginbutton" type="button">Login</button>
-					<p id="wrongPassword" style="display: none">Incorrect Password</p>
+				<div class="box">
+					<input style="margin: 16px; text-align: center;" id="password" type="password" placeholder="password" /> <br />
+					<button id="loginbutton" type="button">Enter</button>
+					<p id="wrongPassword" style="display: none">wrong password</p>
 				</div>
 			</div>
 		</div>
@@ -106,7 +101,7 @@ div.vertical {
 
 		var hash= pwd;
 		hash= Sha1.hash(pwd);
-		var url= hash;
+		var url= hash + "/index.html";
 
 		$.ajax({
 			url : url,
@@ -122,7 +117,7 @@ div.vertical {
 				parent.location.hash= hash;
 
 				//$("#wrongPassword").show();
-				$("#password").attr("placeholder","Incorrect Password");
+				$("#password").attr("placeholder","wrong password");
 				$("#password").val("");
 			}
 		});
