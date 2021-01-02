@@ -10,7 +10,6 @@
 
 body {
 
-	background-image: url('https://cdn.joecollyer.com/image/4kbackgrounds/night-harbour.jpg');
 	background-attachment: fixed;
 	color: #333;
 }
@@ -65,10 +64,10 @@ div.vertical {
 
 <body>
 
-	<div id="loginbox" class="lightbox" >
+	<div id="loginbox" class="" >
 		<div class="horizontal">
 			<div class="vertical">
-				<div class="box">
+				<div class="">
           				<p><span style="color: #ffffff;">Enter your password to continue.</span></p>
 					<input style="margin: 16px; text-align: center;" id="password" type="password" placeholder="password" /> <br />
 					<button id="loginbutton" type="button">Enter</button>
