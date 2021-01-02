@@ -19,7 +19,6 @@ v3
 
 body {
 
-	background-image: url('https://cdn.joecollyer.com/image/fejka.png');
 	background-attachment: fixed;
 	color: #333;
 }
@@ -90,13 +89,13 @@ div.vertical {
 
 <body>
 
-	<div id="loginbox" class="" >
+	<div id="loginbox" class="lightbox" >
 		<div class="horizontal">
 			<div class="vertical">
-				<div class="">
+				<div class="box">
 					<p></p>
 					<input style="text-align: left;" id="password" type="password" placeholder="Password" /> <br />
-          <p></p>
+          				<p></p>
 					<button class="lbutton" id="loginbutton" type="button">Login</button>
 					<p id="wrongPassword" style="display: none">Incorrect Password</p>
 				</div>
