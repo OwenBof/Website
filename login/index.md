@@ -1,4 +1,5 @@
 ---
+permalink: /login/
 title: "Access a restricted area 🔒"
 excerpt: "Login to owenboffey.com"
 author_profile: false
