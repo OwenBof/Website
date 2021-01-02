@@ -6,7 +6,7 @@ author_profile: false
 ---
 
 Enter your password to continue.
-v4
+v5
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -69,18 +69,6 @@ div.vertical {
    text-align: center;
 }
 
-.lbutton {
-  background-color: white;
-  border: 1px solid black;
-  color: black;
-  padding: 3px 6px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  border-radius: 3px;
-}
-
 .lbutton:hover {
   background-color: #e5e5e5;
   color: black;
@@ -89,14 +77,14 @@ div.vertical {
 
 <body>
 
-	<div id="loginbox" class="lightbox" >
+	<div id="loginbox" class="" >
 		<div class="horizontal">
 			<div class="vertical">
-				<div class="box">
+				<div class="">
 					<p></p>
 					<input style="text-align: left;" id="password" type="password" placeholder="Password" /> <br />
           				<p></p>
-					<button class="lbutton" id="loginbutton" type="button">Login</button>
+					<button id="loginbutton" type="button">Login</button>
 					<p id="wrongPassword" style="display: none">Incorrect Password</p>
 				</div>
 			</div>
