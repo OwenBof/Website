@@ -8,13 +8,6 @@ redirect_from:
   - /about.html
 ---
 
----
-
-**Announcement**
-
-Read the latest addition to Bof's Blog [here](https://www.owenboffey.com/year-archive/)!
-
----
 
 Welcome to the new and improved Owen Boffey website!
 
