@@ -1,4 +1,3 @@
-enjoy this owen content!!!!
+Enjoy this owen content!!!!
 
-<img src="https://cdn.discordapp.com/attachments/766397349508546620/785582991795552256/91770ec9-b03e-482a-99c2-781f1450f035.png">
-<img src="https://cdn.discordapp.com/attachments/766397349508546620/773579680959692920/image0.jpg">
+<img src="https://media.discordapp.net/attachments/699552094184800296/785984417750450176/owenbike.jpg?width=463&height=702.png">
