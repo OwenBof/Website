@@ -2,9 +2,6 @@
 main:
   - title: "Home"
     url: /    
-      
-  - title: "Blog Posts"
-    url: /year-archive/
 
   - title: "Gallery"
     url: /gallery/
