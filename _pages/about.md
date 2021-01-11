@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 
-Welcome to the new and improved Owen Boffey website!
+Welcome to owenboffey.com!
 
 
 
